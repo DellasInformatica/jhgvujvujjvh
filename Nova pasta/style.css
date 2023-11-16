@@ -1,0 +1,61 @@
+body {
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: rgb(61, 61, 199);
+    background: linear-gradient(90deg, blue, purple, red, yellow, red, purple, blue);
+}
+
+}
+ 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+
+
+header{
+
+    text-align: center;
+
+    font:normal 15pt Arial;
+
+    color: white;
+
+}
+
+section{
+
+    background-color: white;
+
+    width: 500px;
+
+    margin: auto;
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+
+}
+
+div{
+
+    margin-top: 8px;
+
+}
+
+footer{
+
+    text-align: center;
+
+    font:italic;
+
+}
